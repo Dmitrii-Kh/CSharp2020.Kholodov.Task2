@@ -6,7 +6,7 @@ namespace CSharpProgramming2020.Task2.Exceptions
     {
         private string _message;
 
-        public InvalidEmailException(string message)
+        internal InvalidEmailException(string message)
         {
             _message = message;
         }
