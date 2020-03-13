@@ -6,7 +6,7 @@ namespace CSharpProgramming2020.Task2.Exceptions
     {
         private string _message;
 
-        public BirthdayInFutureException(string message)
+        internal BirthdayInFutureException(string message)
         {
             _message = message;
         }
